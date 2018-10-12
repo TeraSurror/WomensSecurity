@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EmergencyServices">
+
+    <Button
+        android:id="@+id/Cpolice"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:onClick="callPolice"
+        android:text="@string/police" />
+
+    <Button
+        android:id="@+id/Cambulance"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:onClick="callAmbulance"
+        android:text="@string/ambulance" />
+
+    <Button
+        android:id="@+id/Cdisaster"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:onClick="callDisasterManagement"
+        android:text="@string/disaster" />
+
+    <Button
+        android:id="@+id/Chelpline"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:onClick="callWomensHelpline"
+        android:text="@string/helpline" />
+
+</LinearLayout>

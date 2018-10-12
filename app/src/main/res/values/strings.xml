@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Women\'s Security</string>
+    <string name="sos">SEND SOS</string>
+    <string name="button2">CONTACT EMERGENCY SERVICES</string>
+    <string name="maps">MAPS</string>
+    <string name="police">CALL THE POLICE</string>
+    <string name="ambulance">CALL THE AMBULANCE</string>
+    <string name="disaster">CALL DISASTER MANAGMENT</string>
+    <string name="helpline">CALL WOMEN\'S HELPLINE</string>
+    <string name="enter_phone_number">Enter Phone Number</string>
+    <string name="number">Number</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="add_contact">ADD CONTACT</string>
+    <string name="view_contacts">VIEW CONTACTS</string>
+    <string name="save_contact">Save Contact</string>
+</resources>
